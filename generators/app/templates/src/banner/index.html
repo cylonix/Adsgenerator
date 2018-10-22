@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ad.size" content="width=<%= bannerWidth %>,height=<%= bannerHeight %>">
+		
+	<title><%= bannerName %></title>
+	
+	<link rel="stylesheet" href="styles/style.css">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+		
+	<script src="js/banner.js"></script>
+	<script src="js/banner.loader.js"></script>
+	<script src="js/banner.config.js"></script>
+	<% if (bannerFramework == "CREATEJS") { %>
+	<script src="js/banner.createjs.js"></script>
+	<script src="js/banner.animation.canvas.js"></script>
+	<% } %>
+	<% if (bannerFramework == "DOM") { %><script src="js/banner.animation.dom.js"></script><% } %>
+	<% if (includeLegalBar) { %><script src="js/banner.legal.js"></script><% } %>
+</head>
+
+<body>
+	
+	<div id="ad-container">
+    <% if (bannerFramework == "CREATEJS") { %>
+		<div id="ad-canvas-wrapper">
+			<canvas id="createjs-canvas" width="<%= bannerWidth %>" height="<%= bannerHeight %>"></canvas>
+    	</div>
+	<% } %>
+
+	<% if (bannerFramework == "DOM") { %>
+		<div id="ad-dom-wrapper">
+			<img id="logo" src="images/logo.png" alt="logo" srcset="">
+    	</div>
+	<% } %>
+
+		<div class="preloader">
+        	<div class="circle"></div>
+	  	</div>
+	  
+	</div>
+
+	<script type="text/javascript">
+		var banner = new Banner();
+	</script>
+
+</body>
+
+</html>

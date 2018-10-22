@@ -1,0 +1,6 @@
+$banner-width: <%= bannerWidth%>px;
+$banner-height: <%= bannerHeight%>px;
+$legalDuration: 90s;
+
+@import 'base/banner';
+@import 'base/preloader';

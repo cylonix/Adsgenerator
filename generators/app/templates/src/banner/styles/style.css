@@ -1,0 +1,124 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: #ccc;
+}
+
+.banner {
+  width: 750px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+  left: 50%;
+  overflow: hidden;
+  position: relative;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+#ad-container {
+  position: relative;
+  width: 750px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#createjs-canvas {
+  display: block;
+  cursor: pointer;
+  width: 750px;
+  height: 200px;
+  background: linear-gradient(#105fa2, #43c1f1 75%, #43c1f1 80%, #1aa2de 90%);
+}
+
+.legal__container {
+  border-top: 1px solid #cccccc;
+  position: absolute;
+  width: 750px;
+  height: 20px;
+  bottom: 0px;
+  background-color: #ffffff;
+}
+
+.legal__wrapper {
+  color: #4d4d4f;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  font-family: Arial;
+  font-size: 16px;
+  height: 16px;
+  line-height: 16px;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-animation: legatScrollAnimation 90s linear infinite;
+  animation: legatScrollAnimation 90s linear infinite;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes legatScrollAnimation {
+  0% {
+    -webkit-transform: translate(0%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes legatScrollAnimation {
+  0% {
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.preloader {
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.preloader .circle {
+  animation: spin 0.5s linear infinite;
+  border: 5px solid #ddd;
+  border-bottom-color: #333;
+  border-radius: 50%;
+  height: 40px;
+  left: 50%;
+  margin-left: -22.5px;
+  margin-top: -22.5px;
+  position: absolute;
+  top: 50%;
+  transition: all 0.7s ease-in-out;
+  width: 40px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

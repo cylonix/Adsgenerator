@@ -1,0 +1,31 @@
+$banner-width: 300px;
+$banner-height: 250px;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.banner {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: $banner-height;
+  left: 50%;
+  overflow: hidden;
+  position: relative;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: $banner-width;
+}

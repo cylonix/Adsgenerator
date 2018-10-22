@@ -1,0 +1,39 @@
+{
+		"name": "generator-banner_isobar",
+		"version": "0.1.0",
+		"description": "",
+		"files": [
+				"generators"
+		],
+		"keywords": [
+				"yeoman-generator"
+		],
+		"dependencies": {
+				"chalk": "^2.1.0",
+				"concat-files": "^0.1.1",
+				"download": "^6.2.5",
+				"file-exists": "^5.0.1",
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^6.0.0",
+				"gulp-cssnano": "^2.1.3",
+				"gulp-if": "^2.0.2",
+				"gulp-sass": "^4.0.1",
+				"gulp-sourcemaps": "^2.6.4",
+				"lodash": "^4.17.4",
+				"npm-sass": "^2.3.0",
+				"package-info": "^3.0.1",
+				"repeating": "^3.0.0",
+				"string-length": "^2.0.0",
+				"underscore.string": "^3.3.4",
+				"yeoman-generator": "^2.0.1"
+		},
+		"devDependencies": {
+				"eslint": "^4.8.0",
+				"eslint-config-airbnb-base": "^12.0.2",
+				"eslint-plugin-import": "^2.2.0",
+				"mocha": "^4.0.0",
+				"semver": "^5.4.1",
+				"yeoman-assert": "^3.1.0",
+				"yeoman-test": "^1.1.0"
+		}
+}

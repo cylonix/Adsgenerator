@@ -1,0 +1,67 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="750" height="200" frameRate="60" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Macintosh" versionInfo="Saved by Animate Macintosh 18.0 build 107" majorVersion="18" buildNumber="107" rulerVisible="true" viewAngle3D="33.8424060524457" vanishingPoint3DX="375" vanishingPoint3DY="100" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="F001640952B14D999E7B4A9EA95357B3">
+     <media>
+          <DOMBitmapItem name="Bitmapa 1" itemID="5b9a63d7-00000215" sourceLastImported="1536844759" sourcePlatform="macintosh" externalFileCRC32="4178731047" externalFileSize="20347" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmapa 1.png" bitmapDataHRef="M 2 1536844759.dat" frameRight="2600" frameBottom="1560"/>
+          <DOMBitmapItem name="fd502014-cc66-49b0-809b-99855f783765.jpg" itemID="5b991f2e-000002e9" sourceLastImported="1536672527" sourcePlatform="macintosh" externalFileCRC32="1523570633" externalFileSize="139684" allowSmoothing="true" quality="50" href="fd502014-cc66-49b0-809b-99855f783765.jpg" bitmapDataHRef="M 13 1536761646.dat" frameRight="20000" frameBottom="12000" isJPEG="true"/>
+     </media>
+     <symbols>
+          <Include href="Symbol 1.xml" loadImmediate="false" itemID="5b991f18-000002df" lastModified="1537541555"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;160&lt;/guideline&gt;&lt;guideline direction="v"&gt;20&lt;/guideline&gt;&lt;guideline direction="v"&gt;730&lt;/guideline&gt;&lt;guideline direction="h"&gt;20&lt;/guideline&gt;&lt;guideline direction="v"&gt;323&lt;/guideline&gt;&lt;/guidelines&gt;'>
+               <layers>
+                    <DOMLayer name="background.jpg" color="#00FFFF" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Symbol 1" color="#FF4FFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1" name="rect">
+                                             <matrix>
+                                                  <Matrix tx="50" ty="50"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="25" y="25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="fd502014-cc66-49b0-809b-99855f783765.jpg" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="fd502014-cc66-49b0-809b-99855f783765.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.129989624023438" d="0.129989624023438" tx="640" ty="304"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.4" y="1.9"/>
+                                             </transformationPoint>
+                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance libraryItemName="Bitmapa 1">
+                                             <matrix>
+                                                  <Matrix tx="294" ty="295"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <persistentData>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+     </persistentData>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

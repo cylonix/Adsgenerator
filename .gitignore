@@ -1,0 +1,22 @@
+# Folder settings files
+.DS_Store
+Desktop.ini
+.idea
+
+# Log files
+*.log
+logs/
+
+# Node modules
+node_modules/
+
+# Temporary test files
+test/.tmp/
+
+# Other
+.sass-cache/
+.idea
+*.iml
+
+# Test folder
+to_remove/
